@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,600,700|Exo:100,200,300,400,500,600,700');
+
+/*==================================================================================*/
+
+/*--Whole Page Tweaks--*/
+
+.container {
+  max-width: 1024px;
+}
+
+/*--Colors--*/
+
+html, body {
+  background-color: #FAFAE6;
+}
+
+
+/*==================================================================================*/
+
+/*--Header Tweaks--*/
+
+.top-menu {
+  -webkit-box-shadow: 0 6px 4px -4px #999;
+    -moz-box-shadow: 0 6px 4px -4px #999;
+    box-shadow: 0 6px 4px -4px #999;
+}
+
+.navbar-brand {
+  padding: 0px;
+}
+
+.navbar-brand > img {
+  position: relative;
+  padding-right: 0;
+  padding-left: 0;
+  height: 150%;
+  width: auto;
+  z-index: 2;
+}
+
+.nav-item {
+  border-left: 1px solid #CCCCCC;
+}
+
+.btn-right-border {
+  border-right: 1px solid #CCCCCC;
+}
+
+#navbar1 {
+  text-align: right;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 100;
+  font-size: 14px;
+}
+
+.navbar-header > a {
+  animation-delay: .5s;
+}
+
+
+
+
+/*--Main Section Tweaks--*/
+
+.main-section {
+  padding-top: 70px;
+  padding-bottom: 45px;
+}
+
+
+
+
+/*--Footer Tweaks--*/
+
+.footer-right {
+  text-align: center;
+}
+
+.footer-left {
+  padding-top: 5px;
+}
+
+.social-links {
+  font-size: 1.5em
+}
+
+.footer {
+  -webkit-box-shadow: 10px 10px 8px 10px #999;
+    -moz-box-shadow: 10px 10px 8px 10px #999;
+    box-shadow: 10px 10px 8px 10px #999;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+}
+
+.footer-left > ul > li > a {
+  text-decoration: none;
+  color: #3A88A4;
+}
+
+.footer-right > ul > li > a {
+  text-decoration: none;
+  color: #3A88A4;
+}
+
+
+
+
+/*==================================================================================*/
+
+/*--Media Queries--*/
+
+@media screen and (min-width: 258px) {
+  .navbar-brand > img {
+    height: 200%;
+  }
+}
+
+@media screen and (min-width: 320px) {
+  .navbar-brand > img {
+    padding-left: 30px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+
+  .navbar-brand > img {
+    height: 250%;
+    padding-left: 0;
+  }
+  .footer-right {
+    text-align: right;
+    padding-top: 15px;
+  }
+  .footer-left {
+    text-align: left;
+    padding-top: 15px;
+  }
+  .main-section {
+    padding-top: 100px;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .navbar-brand > img {
+    height: 300%;
+    padding-left: 30px;
+  }
+  .main-section {
+    padding-top: 130px;
+  }
+  .menu-change {
+    padding-right: 74px;
+  }
+}
+
+
+
+
+/**/
+
+/**/
+
+/**/
