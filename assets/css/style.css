@@ -70,7 +70,21 @@ html, body {
   padding-bottom: 50px;
 }
 
+.audio-assets {
+  height: 120px;
+  background-color: red;
+  margin-top: 25px;
+}
 
+.video-assets {
+  height: 120px;
+  background-color: green;
+}
+
+.image-assets {
+  height: 120px;
+  background-color: yellow;
+}
 
 
 /*--Footer Tweaks--*/
@@ -140,6 +154,9 @@ html, body {
   .main-section {
     padding-top: 100px;
   }
+  .video-assets {
+  margin-top: 25px;
+}
 }
 
 @media screen and (min-width: 992px) {
@@ -152,6 +169,17 @@ html, body {
   }
   .menu-change {
     padding-right: 74px;
+  }
+  .audio-assets {
+  margin-top: 10px;
+  }
+
+  .video-assets {
+  margin-top: 10px;
+  }
+
+  .image-assets {
+  margin-top: 10px;
   }
 }
 
