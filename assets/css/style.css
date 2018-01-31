@@ -8,6 +8,10 @@
   max-width: 1024px;
 }
 
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
 /*--Colors--*/
 
 html, body {
@@ -21,8 +25,8 @@ html, body {
 
 .top-menu {
   -webkit-box-shadow: 0 6px 4px -4px #999;
-    -moz-box-shadow: 0 6px 4px -4px #999;
-    box-shadow: 0 6px 4px -4px #999;
+  -moz-box-shadow: 0 6px 4px -4px #999;
+  box-shadow: 0 6px 4px -4px #999;
 }
 
 .navbar-brand {
@@ -48,7 +52,6 @@ html, body {
 
 #navbar1 {
   text-align: right;
-  font-family: 'Roboto', sans-serif;
   font-weight: 100;
   font-size: 14px;
 }
@@ -86,9 +89,8 @@ html, body {
 
 .footer {
   -webkit-box-shadow: 10px 10px 8px 10px #999;
-    -moz-box-shadow: 10px 10px 8px 10px #999;
-    box-shadow: 10px 10px 8px 10px #999;
-  font-family: 'Roboto', sans-serif;
+  -moz-box-shadow: 10px 10px 8px 10px #999;
+  box-shadow: 10px 10px 8px 10px #999;
   font-weight: 400;
 }
 
