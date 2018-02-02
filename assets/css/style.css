@@ -96,14 +96,11 @@ html, body {
   -moz-box-shadow: 10px 10px 8px 10px #999;
   box-shadow: 10px 10px 8px 10px #999;
   font-weight: 400;
+  margin-bottom: 0;
+  
 }
 
-.footer-left > ul > li > a {
-  text-decoration: none;
-  color: #3A88A4;
-}
-
-.footer-right > ul > li > a {
+.footer-right > ul > li > a, .footer-left > ul > li > a {
   text-decoration: none;
   color: #3A88A4;
 }
@@ -121,10 +118,9 @@ body > main {
 body > main > .home-background {
   background: url("/assets/images/background_768.png");
   background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-  height: 100vh;
-  width: 99vw;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 300px;
 }
 
 body > main > .home-section-one {
