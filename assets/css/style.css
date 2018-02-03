@@ -16,12 +16,20 @@ body {
 			transition: width 1s ease-in-out, left 1.5s ease-in-out;
 }
 
+.main-section {
+  padding-top: 70px;
+}
+
 
 /*----------------------------------------------------------------------Colors*/
 
 html, body {
   background-color: #E1F5FE;
   min-height:100vh;
+}
+
+.bg-news {
+  background-color: #E1F5FE;
 }
 
 
@@ -150,8 +158,7 @@ body > main > .container-fluid.home-section-one.home-background > div {
 
 /*-----------------------------------------------------------------News Tweaks*/
 
-.news-section {
-  margin-top: 75px;
+.main-section.news-section {
   min-height: 100vh;
 }
 
@@ -159,25 +166,40 @@ body > main > .container-fluid.home-section-one.home-background > div {
   font-family: "Lora", sans-serif;
 }
 
-body > main > .news-heading > h1 {
+.news-heading > h1 {
   font-family: "Lora", sans-serif;
   font-weight: 700;
   font-size: 4em;
-  border-bottom: 1px solid black;
+  text-decoration: underline;
 }
 
-.news-item {
-  border-bottom: 1px solid black;
-}
-.news-item, .news-heading {
-    background-color: #E1F5FE;
-}
+
+ .news-divider {
+   background-color: #5472d3;
+   text-align: center;
+   height: 2px;
+   width: 200px;
+   margin-left: auto;
+   margin-right: auto;
+ }
+ 
 /*----------------------------------------------------------Discography Tweaks*/
 /*-----------------------------------------------------Events/Functions Tweaks*/
 /*----------------------------------------------------------Images Page Tweaks*/
 /*-----------------------------------------------------------Audio Page Tweaks*/
 /*-----------------------------------------------------------Video Page Tweaks*/
 /*------------------------------------------------------------Band Page Tweaks*/
+
+.band-main > img {
+  margin: 0px;
+  width: 120px;
+  height: 100px;
+}
+
+.band-no-show1, .band-no-show2 {
+  display: none;
+}
+
 /*--------------------------------------------------------------Contact Tweaks*/
 
 
@@ -224,10 +246,12 @@ body > main > .news-heading > h1 {
   background-position: center;
   background-attachment: fixed;
   }
-  
   .news-item {
     padding-bottom: 30px;
   }
+  .band-no-show1 {
+  display: block;
+}
 }
 
 @media screen and (min-width: 992px) {
@@ -249,6 +273,10 @@ body > main > .news-heading > h1 {
   }
   .news-item {
     padding-bottom: 40px;
+  }
+  
+  .band-no-show2 {
+  display: block;
   }
 }
 
