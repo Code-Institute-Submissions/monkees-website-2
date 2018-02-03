@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,600,700|Exo:100,200,300,400,500,600,700|Lora:400,400i');
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,600,700|Exo:100,200,300,400,500,600,700|Lora:400,400i,700');
 
 /*============================================================================*/
 
@@ -10,14 +10,18 @@
 
 body {
   font-family: 'Roboto', sans-serif;
+  -moz-transition: width 1s ease-in-out, left 1.5s ease-in-out;
+			-webkit-transition: width 1s ease-in-out, left 1.5s ease-in-out;
+			-o-transition: width 1s ease-in-out, left 1.5s ease-in-out;
+			transition: width 1s ease-in-out, left 1.5s ease-in-out;
 }
 
 
 /*----------------------------------------------------------------------Colors*/
 
 html, body {
-  background-color: #FAFAE6;
-  height:100%
+  background-color: #E1F5FE;
+  min-height:100vh;
 }
 
 
@@ -76,6 +80,13 @@ html, body {
   color: black;
 }
 
+#navbar1 > ul > li > .hvr-overline-reveal:before {
+  background: #6fb8d5;
+}
+
+#navbar1 > ul > li > a {
+  color: #005b75;
+}
 
 /*---------------------------------------------------------------Footer Tweaks*/
 
@@ -138,12 +149,28 @@ body > main > .container-fluid.home-section-one.home-background > div {
 }
 
 /*-----------------------------------------------------------------News Tweaks*/
+
 .news-section {
   margin-top: 75px;
+  min-height: 100vh;
 }
 
 .news-section p {
   font-family: "Lora", sans-serif;
+}
+
+body > main > .news-heading > h1 {
+  font-family: "Lora", sans-serif;
+  font-weight: 700;
+  font-size: 4em;
+  border-bottom: 1px solid black;
+}
+
+.news-item {
+  border-bottom: 1px solid black;
+}
+.news-item, .news-heading {
+    background-color: #E1F5FE;
 }
 /*----------------------------------------------------------Discography Tweaks*/
 /*-----------------------------------------------------Events/Functions Tweaks*/
@@ -188,6 +215,19 @@ body > main > .container-fluid.home-section-one.home-background > div {
   .main-section {
     /*Just Incase*/
   }
+  .main-section.news-section {
+  margin-top: 0px;
+  padding-top: 50px;
+  background-image: url("/assets/images/news-background.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  }
+  
+  .news-item {
+    padding-bottom: 30px;
+  }
 }
 
 @media screen and (min-width: 992px) {
@@ -201,6 +241,14 @@ body > main > .container-fluid.home-section-one.home-background > div {
   }
   .menu-change {
     padding-right: 74px;
+  }
+
+  .main-section.news-section {
+  margin-top: 0px;
+  padding-top: 50px;
+  }
+  .news-item {
+    padding-bottom: 40px;
   }
 }
 
