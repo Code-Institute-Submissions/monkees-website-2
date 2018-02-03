@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,600,700|Exo:100,200,300,400,500,600,700');
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,600,700|Exo:100,200,300,400,500,600,700|Lora:400,400i');
 
 /*============================================================================*/
 
@@ -138,6 +138,13 @@ body > main > .container-fluid.home-section-one.home-background > div {
 }
 
 /*-----------------------------------------------------------------News Tweaks*/
+.news-section {
+  margin-top: 75px;
+}
+
+.news-section p {
+  font-family: "Lora", sans-serif;
+}
 /*----------------------------------------------------------Discography Tweaks*/
 /*-----------------------------------------------------Events/Functions Tweaks*/
 /*----------------------------------------------------------Images Page Tweaks*/
