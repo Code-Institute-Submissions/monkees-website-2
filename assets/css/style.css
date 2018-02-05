@@ -7,6 +7,7 @@
 html {
   min-height: 100%;
   position: relative;
+  width: 100%;
   }
 
 body {
@@ -125,7 +126,7 @@ html, body {
 }
 
 .social-links {
-  font-size: 1.5em
+  font-size: 1.5em;
 }
 
 .footer-right > ul > li > a, .footer-left > ul > li > a {
@@ -147,33 +148,40 @@ body > main {
   margin: 0;
 }
 
-body > main > .home-background {
-  background: url("/assets/images/background_768.png");
+body > main > .home-splash1 {
+  background: url("/assets/images/home-splash1.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  min-height: 300px;
+  background-attachment: fixed;
 }
 
-body > main > .home-background > div {
-  background: rgb(200, 54, 54); /* This is for ie8 and below */
+/*body > main > .home-splash1 > div {
+  background: rgb(200, 54, 54);
    background: rgba(255, 255, 255, 0.5); 
   margin-top: 30vh;
-}
+}*/
 
-body > main > .home-section-one {
+body > main > .home-splash2 {
+  background: url("/assets/images/monkees-live.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  min-height: 400px;
   padding: 0;
 }
 
+body > main > .home-section-one {
+  height: 100vh;
+}
 body > main > .home-section-two {
   height: 100vh;
 }
 body > main > .home-section-three {
   height: 100vh;
 }
-body > main > .home-section-four {
-  height: 100vh;
-}
+
 
 /*-----------------------------------------------------------------News Tweaks*/
 
@@ -272,9 +280,8 @@ body > main > .home-section-four {
     /*Just Incase*/
   }
   
-  body > main > .home-background {
-  height: 400px;
-  width: 100vw;
+  body > main > .home-splash1 {
+  min-height: 400px;
   }
   .main-section.news-section {
   margin-top: 0px;
@@ -303,7 +310,7 @@ body > main > .home-section-four {
   .main-section {
     /*Just Incase*/
   }
-  body > main > .home-background {
+  body > main > .home-splash1 {
     background-attachment: fixed;
   height: 100vh;
   }
