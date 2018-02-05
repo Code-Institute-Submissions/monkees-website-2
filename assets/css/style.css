@@ -4,20 +4,23 @@
 
 /*-----------------------------------------------------------Whole Page Tweaks*/
 
+html {
+  min-height: 100%;
+  position: relative;
+  }
+
+body {
+  font-family: 'Roboto', sans-serif;
+  margin-bottom: 60px;
+  
+}
+
 .container {
   max-width: 1024px;
 }
 
-body {
-  font-family: 'Roboto', sans-serif;
-  -moz-transition: width 1s ease-in-out, left 1.5s ease-in-out;
-			-webkit-transition: width 1s ease-in-out, left 1.5s ease-in-out;
-			-o-transition: width 1s ease-in-out, left 1.5s ease-in-out;
-			transition: width 1s ease-in-out, left 1.5s ease-in-out;
-}
-
 .main-section {
-  padding-top: 70px;
+  padding-top: 50px;
 }
 
 
@@ -25,7 +28,6 @@ body {
 
 html, body {
   background-color: #E1F5FE;
-  min-height:100vh;
 }
 
 .bg-news {
@@ -98,6 +100,22 @@ html, body {
 
 /*---------------------------------------------------------------Footer Tweaks*/
 
+.footer {
+  -webkit-box-shadow: 10px 10px 8px 10px #999;
+  -moz-box-shadow: 10px 10px 8px 10px #999;
+  box-shadow: 10px 10px 8px 10px #999;
+  font-weight: 400;
+  bottom: 0;
+  width: 100%;
+  position: absolute;
+  height: 60px;
+  background-color: #F5F5F5;
+  margin-bottom: 0px;
+}
+.footer-block {
+  margin: 20px 0;
+}
+
 .footer-right {
   text-align: center;
 }
@@ -110,18 +128,13 @@ html, body {
   font-size: 1.5em
 }
 
-.footer {
-  -webkit-box-shadow: 10px 10px 8px 10px #999;
-  -moz-box-shadow: 10px 10px 8px 10px #999;
-  box-shadow: 10px 10px 8px 10px #999;
-  font-weight: 400;
-  margin-bottom: 0;
-  
-}
-
 .footer-right > ul > li > a, .footer-left > ul > li > a {
   text-decoration: none;
   color: #3A88A4;
+}
+
+.footer-right > ul, .footer-left > ul {
+  margin-bottom: 0px;
 }
 
 
@@ -139,21 +152,28 @@ body > main > .home-background {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  height: 300px;
+  min-height: 300px;
+}
+
+body > main > .home-background > div {
+  background: rgb(200, 54, 54); /* This is for ie8 and below */
+   background: rgba(255, 255, 255, 0.5); 
+  margin-top: 30vh;
 }
 
 body > main > .home-section-one {
   padding: 0;
+  height: 100%;
 }
 
 body > main > .home-section-two {
   height: 100vh;
 }
-
-body > main > .container-fluid.home-section-one.home-background > div {
-  background: rgb(200, 54, 54); /* This is for ie8 and below */
-   background: rgba(255, 255, 255, 0.5); 
-  margin-top: 30vh;
+body > main > .home-section-three {
+  height: 100vh;
+}
+body > main > .home-section-four {
+  height: 100vh;
 }
 
 /*-----------------------------------------------------------------News Tweaks*/
@@ -170,7 +190,6 @@ body > main > .container-fluid.home-section-one.home-background > div {
   font-family: "Lora", sans-serif;
   font-weight: 700;
   font-size: 4em;
-  text-decoration: underline;
 }
 
 
@@ -183,7 +202,23 @@ body > main > .container-fluid.home-section-one.home-background > div {
    margin-right: auto;
  }
  
+.news-item {
+  padding-top: 20px;
+}
+ 
 /*----------------------------------------------------------Discography Tweaks*/
+
+.disc-page {
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+.cd-cover {
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+
 /*-----------------------------------------------------Events/Functions Tweaks*/
 /*----------------------------------------------------------Images Page Tweaks*/
 /*-----------------------------------------------------------Audio Page Tweaks*/
@@ -237,6 +272,11 @@ body > main > .container-fluid.home-section-one.home-background > div {
   .main-section {
     /*Just Incase*/
   }
+  
+  body > main > .home-background {
+  height: 400px;
+  width: 100vw;
+  }
   .main-section.news-section {
   margin-top: 0px;
   padding-top: 50px;
@@ -252,6 +292,7 @@ body > main > .container-fluid.home-section-one.home-background > div {
   .band-no-show1 {
   display: block;
 }
+
 }
 
 @media screen and (min-width: 992px) {
@@ -263,10 +304,15 @@ body > main > .container-fluid.home-section-one.home-background > div {
   .main-section {
     /*Just Incase*/
   }
+  body > main > .home-background {
+    background-attachment: fixed;
+  height: 100vh;
+  }
   .menu-change {
     padding-right: 74px;
   }
-
+  
+  
   .main-section.news-section {
   margin-top: 0px;
   padding-top: 50px;
