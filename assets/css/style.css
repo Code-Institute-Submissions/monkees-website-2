@@ -150,17 +150,12 @@ body > main {
 
 body > main > .home-splash1 {
   background: url("/assets/images/home-splash1.jpg");
-  background-size: cover;
+  background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
   background-attachment: fixed;
+  min-height: 200px;
 }
-
-/*body > main > .home-splash1 > div {
-  background: rgb(200, 54, 54);
-   background: rgba(255, 255, 255, 0.5); 
-  margin-top: 30vh;
-}*/
 
 body > main > .home-splash2 {
   background: url("/assets/images/monkees-live.jpg");
@@ -173,7 +168,7 @@ body > main > .home-splash2 {
 }
 
 body > main > .home-section-one {
-  height: 100vh;
+  height: 50%;
 }
 body > main > .home-section-two {
   height: 100vh;
@@ -226,8 +221,20 @@ body > main > .home-section-three {
 }
 
 
-/*-----------------------------------------------------Events/Functions Tweaks*/
+/*---------------------------------------------------------------Events Tweaks*/
 /*----------------------------------------------------------Images Page Tweaks*/
+
+.image-section {
+  text-align: center;
+  height: auto;
+}
+
+.image-thumb {
+  width: 150px;
+  height: 150px;
+  padding: 0px;
+}
+
 /*-----------------------------------------------------------Audio Page Tweaks*/
 /*-----------------------------------------------------------Video Page Tweaks*/
 /*------------------------------------------------------------Band Page Tweaks*/
@@ -281,8 +288,12 @@ body > main > .home-section-three {
   }
   
   body > main > .home-splash1 {
-  min-height: 400px;
+    background-size: contain;
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
   }
+  
   .main-section.news-section {
   margin-top: 0px;
   padding-top: 50px;
@@ -311,13 +322,16 @@ body > main > .home-section-three {
     /*Just Incase*/
   }
   body > main > .home-splash1 {
+    background: url("/assets/images/background_10801.png");
+    background-size: contain;
+    background-position: center top;
+    background-repeat: no-repeat;
     background-attachment: fixed;
-  height: 100vh;
   }
+  
   .menu-change {
     padding-right: 74px;
   }
-  
   
   .main-section.news-section {
   margin-top: 0px;
