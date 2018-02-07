@@ -189,24 +189,18 @@ body > main > .home-splash3 {
   padding: 0;
 }
 
-.main-page-content > h1, .home-section-two > h1 {
+.main-page-content > h1, .home-section-two > h1, .home-section-three > h1 {
   font-family: "Ultra", sans-serif;
   font-size: 4em;
   text-align: center;
+  padding-bottom: 50px;
 }
 
-body > main > .home-section-one {
+body > main > .home-section-one, body > main > .home-section-two, body > main > .home-section-three {
   padding-top: 100px;
   padding-bottom: 100px;
 }
 
-body > main > .home-section-two {
-  height: 100vh;
-}
-
-body > main > .home-section-three {
-  height: 100vh;
-}
 
 
 /*-----------------------------------------------------------------News Tweaks*/
@@ -270,17 +264,13 @@ body > main > .home-section-three {
   padding-bottom: 30px;
   font-size: 2.8em;
 }
-.events-table {
-  
-} 
+
 .table-title {
   font-weight: 600;
   font-size: 1.2em;
   text-align: center;
 }
-.event-date {
-  
-}
+
 .event-name {
   text-align: center;
 }
@@ -423,7 +413,7 @@ video {
 
 }
 
-@media screen and (min-width: 387px) {
+@media screen and (min-width: 401px) {
   .footer {
     height: 60px;
   }
