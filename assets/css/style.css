@@ -239,6 +239,39 @@ body > main > .home-section-three {
 
 /*---------------------------------------------------------------Events Tweaks*/
 
+.events-section {
+  padding-top: 70px;
+}
+.current-events {
+  background-color: #E1F5FE;
+}
+.current-events > h1 {
+  font-family: "Ultra", sans-serif;
+  text-align: center;
+  padding-bottom: 30px;
+  font-size: 2.8em;
+}
+.events-table {
+  
+} 
+.table-title {
+  font-weight: 600;
+  font-size: 1.2em;
+  text-align: center;
+}
+.event-date {
+  
+}
+.event-name {
+  text-align: center;
+}
+.event-loc {
+  text-align: right;
+}
+.events-section > .current-events > p > a {
+  text-decoration: none;
+}
+
 /*----------------------------------------------------------Images Page Tweaks*/
 
 .image-section {
@@ -366,15 +399,6 @@ video {
     background-attachment: fixed;
   }
 
-  .main-section.news-section {
-    margin-top: 0px;
-    padding-top: 50px;
-    background-image: url("//raw.githubusercontent.com/ShaunZA/milestone-project-1/gh-pages/assets/images/news-background.png");
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-attachment: fixed;
-  }
   .news-item {
     padding-bottom: 30px;
   }
@@ -391,6 +415,12 @@ video {
   width: 340px;
   height: 340px;
 }
+.main-section.events-section {
+    height: 100vh;
+  }
+  .current-events {
+    height: 100vh;
+  }
 
 }
 
@@ -425,6 +455,15 @@ video {
 
   .band-no-show2 {
     display: block;
+  }
+  .main-section.news-section, .main-section.events-section {
+    margin-top: 0px;
+    padding-top: 50px;
+    background-image: url("//raw.githubusercontent.com/ShaunZA/milestone-project-1/gh-pages/assets/images/news-background.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
   }
 }
 
