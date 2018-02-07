@@ -179,13 +179,24 @@ body > main > .home-splash2 {
   padding: 0;
 }
 
-.main-page-content > h1 {
+body > main > .home-splash3 {
+  background: url("//raw.githubusercontent.com/ShaunZA/milestone-project-1/gh-pages/assets/images/home-splash2.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  min-height: 400px;
+  padding: 0;
+}
+
+.main-page-content > h1, .home-section-two > h1 {
   font-family: "Ultra", sans-serif;
-  font-weight: 700;
   font-size: 4em;
+  text-align: center;
 }
 
 body > main > .home-section-one {
+  padding-top: 100px;
   padding-bottom: 100px;
 }
 
@@ -480,15 +491,14 @@ video {
     padding-left: 0px;
     margin-right: 60px;
   }
-  .main-section {
-    /*Just Incase*/
-  }
+  
   body > main > .home-splash1 {
     background: url("//raw.githubusercontent.com/ShaunZA/milestone-project-1/gh-pages/assets/images/home-splash1-wide.jpg");
     background-size: contain;
     background-position: center top;
     background-repeat: no-repeat;
     background-attachment: fixed;
+    height: auto;
   }
 
   .menu-change {
