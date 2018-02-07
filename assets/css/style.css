@@ -232,6 +232,8 @@ body > main > .home-section-three {
 .cd-cover {
   padding-left: 0px;
   padding-right: 0px;
+  width: 100%;
+  height: auto;
 }
 
 
@@ -379,6 +381,16 @@ video {
   .band-no-show1 {
     display: block;
   }
+  .disc-page {
+    margin: auto;
+    width: 78%;
+  }
+  .cd-cover {
+  padding-left: 0px;
+  padding-right: 0px;
+  width: 340px;
+  height: 340px;
+}
 
 }
 
