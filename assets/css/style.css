@@ -272,6 +272,15 @@ video {
 
 /*------------------------------------------------------------Band Page Tweaks*/
 
+.band-heading > h1 {
+  font-family: "Ultra", sans-serif;
+  padding-top: 20px;
+}
+
+.band-main {
+  padding-bottom: 10px;
+}
+
 .band-main > img {
   margin: 0px;
   width: 120px;
@@ -281,6 +290,10 @@ video {
 .band-no-show1,
 .band-no-show2 {
   display: none;
+}
+
+.band-member {
+  margin-top: 10px;
 }
 
 /*--------------------------------------------------------------Contact Tweaks*/
