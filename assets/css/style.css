@@ -309,17 +309,34 @@ button.close {
 
 /*-----------------------------------------------------------Audio Page Tweaks*/
 
+.audio-section {
+  padding-top: 70px;
+  text-align: center; 
+}
+
+.audio-heading > h1 {
+  font-family: "Ultra", sans-serif;
+  text-align: center;
+  padding-bottom: 30px;
+  font-size: 2.8em;
+}
+
+.audio-heading {
+  padding-bottom: 20px;
+}
+
+.audio-item {
+  padding-bottom: 50px;
+}
+
 /*-----------------------------------------------------------Video Page Tweaks*/
 
 .video-section {
   margin-top: 50px;
+  padding-bottom: 50px;
 }
 
-.video-item {
-  border: 1px solid black;
-}
-
-.video-item > h4 {
+.video-item > h3 {
   text-align: center;
 }
 
@@ -498,6 +515,7 @@ video {
     padding-left: 0px;
     padding-right: 0px;
 }
+
 }
 
 /**/
