@@ -70,40 +70,43 @@
     </nav>
   </header>
 
-  <main class="main-section container">
-    <form class="form-horizontal" action="/action_page.php">
+  <main class="main-section contact-section container">
+     <h1>Hire Us!</h1>
+     <p>We supply the best live music for any occasion. Everyone from kids to grandparents love 'The Monkees'.</p>
+     <p>When we aren't busy on tour we try to accommodate our fans in anyway we can. Hell, even on tour we do our best to make every event we can so if you would like to hire us for an upcoming event, just fill out the form below and we will get back to you as soon as we possibly can.</p>
+    <form class="form-horizontal" action="">
       <div class="form-group">
-        <label class="control-label col-sm-2" for="name">Name:</label>
+        <label class="control-label col-sm-2" for="name">Name<span class="red-star">*</span>:</label>
         <div class="col-sm-10">
-          <input type="text" class="form-control" id="name" placeholder="Enter Full Name">
+          <input type="text" class="form-control" id="name" placeholder="Full Name" required>
         </div>
       </div>
       <div class="form-group">
-        <label class="control-label col-sm-2" for="email">Email:</label>
+        <label class="control-label col-sm-2" for="email">Email<span class="red-star">*</span>:</label>
         <div class="col-sm-10">
-          <input type="textarea" class="form-control" id="email" placeholder="Enter Email Address">
+          <input type="email" class="form-control" id="email" placeholder="Email Address" required>
         </div>
       </div>
       <div class="form-group">
-        <label class="control-label col-sm-2" for="phone">Contact Number:</label>
+        <label class="control-label col-sm-2" for="phone">Contact Number<span class="red-star">*</span>:</label>
         <div class="col-sm-10">
-          <input type="tel" class="form-control" id="phone" placeholder="Enter Contact Number">
+          <input type="tel" class="form-control" id="phone" placeholder="Contact Number" required>
         </div>
       </div>
       <div class="form-group">
-        <label class="control-label col-sm-2" for="date">Date And Time:</label>
+        <label class="control-label col-sm-2" for="date">Date And Time<span class="red-star">*</span>:</label>
         <div class="col-sm-10">
-          <input type="datetime-local" class="form-control" id="date">
+          <input type="datetime-local" class="form-control" id="date" required>
         </div>
       </div>
       <div class="form-group">
-        <label class="control-label col-sm-2" for="loc">Location:</label>
+        <label class="control-label col-sm-2" for="loc">Location<span class="red-star">*</span>:</label>
         <div class="col-sm-10">
-          <input type="text" class="form-control" id="loc" placeholder="Enter Location">
+          <input type="text" class="form-control" id="loc" placeholder="Location" required>
         </div>
       </div>
       <div class="form-group">
-        <label class="control-label col-sm-2" for="sel1">Event Type:</label>
+        <label class="control-label col-sm-2" for="sel1">Type Of Event:</label>
         <div class="col-sm-10">
           <select class="form-control" id="sel1">
                      <option>Birthday</option>
@@ -122,9 +125,12 @@
           <textarea class="form-control" rows="4" id="comment" placeholder="Place any extra notes here that you think might be relevant."></textarea>
         </div>
       </div>
+      <div class="container col-sm-offset-2 col-sm-10 text-left">
+      <p><span class="red-star">*</span> Required Field</p>
+      </div>
       <div class="form-group">
         <div class="col-sm-offset-2 col-sm-10">
-          <input type="button" class="btn btn-default" onclick="alert('Thank you. Your Form has been Submitted')" value="Submit">
+          <input type="submit" class="btn btn-default">
         </div>
       </div>
     </form>
