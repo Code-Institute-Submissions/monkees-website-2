@@ -160,7 +160,7 @@ body > main {
 }
 
 body > main > .home-splash1 {
-  background: url("//raw.githubusercontent.com/ShaunZA/milestone-project-1/gh-pages/assets/images/home-splash1.jpg");
+  background: url("//raw.githubusercontent.com/ShaunZA/milestone-project-1/gh-pages/assets/images/home-splash1-square.jpg");
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
@@ -476,7 +476,7 @@ video {
     /*Just Incase*/
   }
   body > main > .home-splash1 {
-    background: url("//raw.githubusercontent.com/ShaunZA/milestone-project-1/gh-pages/assets/images/background_10801.png");
+    background: url("//raw.githubusercontent.com/ShaunZA/milestone-project-1/gh-pages/assets/images/home-splash1-wide.jpg");
     background-size: contain;
     background-position: center top;
     background-repeat: no-repeat;
