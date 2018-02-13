@@ -234,6 +234,11 @@ body > main > .home-section-one, body > main > .home-section-two, body > main > 
   padding-bottom: 20px;
 }
 
+[aria-expanded="false"] > .expanded,
+[aria-expanded="true"] > .collapsed {
+  display: none;
+}
+
 /*----------------------------------------------------------Discography Tweaks*/
 
 .disc-page {
