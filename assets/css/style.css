@@ -215,7 +215,6 @@ body > main > .home-section-one, body > main > .home-section-two, body > main > 
 
 .news-heading > h1 {
   font-family: "Ultra", sans-serif;
-  font-weight: 700;
   font-size: 4em;
 }
 
@@ -298,7 +297,7 @@ body > main > .home-section-one, body > main > .home-section-two, body > main > 
   font-family: "Ultra", sans-serif;
   text-align: center;
   padding-bottom: 30px;
-  font-size: 2.8em;
+  font-size: 4em;
 }
 
 .image {
@@ -331,7 +330,7 @@ button.close {
   font-family: "Ultra", sans-serif;
   text-align: center;
   padding-bottom: 30px;
-  font-size: 2.8em;
+  font-size: 4em;
 }
 
 .audio-heading {
@@ -346,7 +345,14 @@ button.close {
 
 .video-section {
   margin-top: 50px;
+  padding-top: 0px;
   padding-bottom: 50px;
+}
+
+.video-heading > h1 {
+  font-family: "Ultra", sans-serif;
+  font-size: 4em;
+  text-align: center;
 }
 
 .video-item > h3 {
@@ -362,6 +368,7 @@ video {
 
 .band-heading > h1 {
   font-family: "Ultra", sans-serif;
+  font-size: 4em;
   padding-top: 20px;
 }
 
@@ -393,6 +400,7 @@ video {
 
 .contact-section > h1 {
     font-family: "Ultra", sans-serif;
+    font-size: 4em;
     padding-bottom: 12px;
   }
   
