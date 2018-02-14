@@ -160,7 +160,7 @@ body > main {
 }
 
 body > main > .home-splash1 {
-  background: url("assets/images/home-splash1-square.jpg");
+  background: url("../images/home-splash1-square.jpg");
   background-size: contain;
   background-repeat: no-repeat;
   background-position: top;
@@ -170,7 +170,7 @@ body > main > .home-splash1 {
 }
 
 body > main > .home-splash2 {
-  background: url("assets/images/monkees-live.jpg");
+  background: url("../images/monkees-live.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -180,7 +180,7 @@ body > main > .home-splash2 {
 }
 
 body > main > .home-splash3 {
-  background: url("assets/images/home-splash2.jpg");
+  background: url("../images/home-splash2.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -440,12 +440,9 @@ video {
     text-align: left;
     padding-top: 15px;
   }
-  .main-section {
-    /*Just Incase*/
-  }
 
   body > main > .home-splash1 {
-    background: url("assets/images/home-splash1-768.jpg");
+    background: url("../images/home-splash1-768.jpg");
     background-size: contain;
     background-position: top;
     background-repeat: no-repeat;
@@ -488,7 +485,7 @@ video {
   }
   
   body > main > .home-splash1 {
-    background: url("assets/images/home-splash1-wide.jpg");
+    background: url("../images/home-splash1-wide.jpg");
     background-size: contain;
     background-position: center top;
     background-repeat: no-repeat;
@@ -514,7 +511,7 @@ video {
   .main-section.news-section, .main-section.events-section {
     margin-top: 0px;
     padding-top: 50px;
-    background-image: url("assets/images/news-background.png");
+    background-image: url("../images/news-background.png");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
