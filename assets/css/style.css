@@ -170,7 +170,7 @@ body > main > .home-splash1 {
 }
 
 body > main > .home-splash2 {
-  background: url("../images/monkees-live.jpg");
+  background: url("../images/home-splash2.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -180,7 +180,7 @@ body > main > .home-splash2 {
 }
 
 body > main > .home-splash3 {
-  background: url("../images/home-splash2.jpg");
+  background: url("../images/monkees-live.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -201,6 +201,13 @@ body > main > .home-section-one, body > main > .home-section-two, body > main > 
   padding-bottom: 100px;
 }
 
+.intro h3 {
+  padding-bottom: 50px;
+}
+
+.home-section-two h4 {
+  padding-top: 50px;
+}
 
 
 /*------------------------------------------------------------------------News*/
@@ -240,6 +247,14 @@ body > main > .home-section-one, body > main > .home-section-two, body > main > 
 
 /*-----------------------------------------------------------------Discography*/
 
+.disc-heading h1 {
+  font-family: "Ultra", sans-serif;
+  font-size: 3em;
+  text-align: center;
+  padding-bottom: 30px;
+  padding-top: 20px;
+}
+
 .disc-page {
   padding-left: 0px;
   padding-right: 0px;
@@ -251,6 +266,8 @@ body > main > .home-section-one, body > main > .home-section-two, body > main > 
   width: 100%;
   height: auto;
 }
+
+
 
 
 /*----------------------------------------------------------------------Events*/
@@ -287,12 +304,6 @@ body > main > .home-section-one, body > main > .home-section-two, body > main > 
 
 /*-----------------------------------------------------------------Images Page*/
 
-.image-section {
-  text-align: center;
-  height: auto;
-  padding-bottom: 40px;
-}
-
 .image-section > h1 {
   font-family: "Ultra", sans-serif;
   text-align: center;
@@ -300,22 +311,29 @@ body > main > .home-section-one, body > main > .home-section-two, body > main > 
   font-size: 4em;
 }
 
-.image {
-  padding-top: 20px;
+.container.gallery-container {
+    min-height: 100vh;
 }
 
-.modal-body {
-  padding: 0;
+.tz-gallery {
+    padding: 0px;
+    display: flex;
+    margin-bottom: 50px;
 }
 
-.modal {
-    padding-right: 0px !important;
+.tz-gallery .lightbox img {
+    width: 100%;
+    margin-bottom: 30px;
+    transition: 0.2s ease-in-out;
+    box-shadow: 0 2px 3px rgba(0,0,0,0.2);
 }
 
-button.close {
-  color: red;
-  font-size: 2em;
-  padding-right: 10px;
+.baguetteBox-button {
+    background-color: transparent !important;
+}
+
+.image-box {
+  padding: 0px;
 }
 
 
@@ -525,13 +543,25 @@ video {
     background-position: center;
     background-attachment: fixed;
   }
-  .image-thumb {
-  height: auto;
-  max-width: 300px;
-}
+  
 .image-section > div {
     padding-left: 0px;
     padding-right: 0px;
+}
+
+.image-box {
+  width: 33%;
+    height: 300px; /* or whatever... */
+    overflow: hidden;
+    display: inline-block;
+}
+
+.image {
+  max-width:100%;
+  max-height:100%;
+  margin-top: 50px;
+  margin-left: 25px;
+  margin-right: 25px;
 }
 
 }
