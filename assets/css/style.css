@@ -32,7 +32,9 @@ body {
   background-color: #E1F5FE;
 }
 
-.bg-news, .bg-images, .bg-audio {
+.bg-news,
+.bg-images,
+.bg-audio {
   background-color: #E1F5FE;
 }
 
@@ -102,6 +104,7 @@ body {
 #navbar1 > ul > li > a {
   color: #005b75;
 }
+
 
 /*----------------------------------------------------------------------Footer*/
 
@@ -182,7 +185,7 @@ body > main > .home-section-three {
   background-position: center;
   min-height: 600px;
   height: 100vh;
-    padding-left: 0px;
+  padding-left: 0px;
   padding-right: 0px;
   position: relative;
 }
@@ -199,7 +202,9 @@ body > main > .home-section-three {
   font-weight: 600;
 }
 
-.main-page-content > h1, .home-section-two > h1, .home-section-three > .events > h1 {
+.main-page-content > h1,
+.home-section-two > h1,
+.home-section-three > .events > h1 {
   font-family: "Ultra", sans-serif;
   font-size: 4em;
   text-align: center;
@@ -207,7 +212,9 @@ body > main > .home-section-three {
 }
 
 
-body > main > .home-section-one, body > main > .home-section-two, body > main > .home-section-three {
+body > main > .home-section-one,
+body > main > .home-section-two,
+body > main > .home-section-three {
   padding-top: 100px;
   padding-bottom: 200px;
 }
@@ -236,7 +243,6 @@ body > main > .home-section-one, body > main > .home-section-two, body > main > 
   font-size: 4em;
 }
 
-
 .news-divider {
   background-color: #5472d3;
   text-align: center;
@@ -255,6 +261,7 @@ body > main > .home-section-one, body > main > .home-section-two, body > main > 
 [aria-expanded="true"] > .collapsed {
   display: none;
 }
+
 
 /*-----------------------------------------------------------------Discography*/
 
@@ -289,10 +296,12 @@ body > main > .home-section-one, body > main > .home-section-two, body > main > 
 .events-section {
   padding-top: 70px;
 }
+
 .current-events {
   background-color: #E1F5FE;
   padding-top: 25px;
 }
+
 .current-events > h1 {
   font-family: "Ultra", sans-serif;
   text-align: center;
@@ -309,12 +318,15 @@ body > main > .home-section-one, body > main > .home-section-two, body > main > 
 .event-name {
   text-align: center;
 }
+
 .event-loc {
   text-align: right;
 }
+
 .events-section > .current-events > p > a {
   text-decoration: none;
 }
+
 
 /*-----------------------------------------------------------------Images Page*/
 
@@ -326,24 +338,24 @@ body > main > .home-section-one, body > main > .home-section-two, body > main > 
 }
 
 .container.gallery-container {
-    min-height: 100vh;
+  min-height: 100vh;
 }
 
 .tz-gallery {
-    padding: 0px;
-    display: flex;
-    margin-bottom: 50px;
+  padding: 0px;
+  display: flex;
+  margin-bottom: 50px;
 }
 
 .tz-gallery .lightbox img {
-    width: 100%;
-    margin-bottom: 30px;
-    transition: 0.2s ease-in-out;
-    box-shadow: 0 2px 3px rgba(0,0,0,0.2);
+  width: 100%;
+  margin-bottom: 30px;
+  transition: 0.2s ease-in-out;
+  box-shadow: 0 2px 3px rgba(0, 0, 0, 0.2);
 }
 
 .baguetteBox-button {
-    background-color: transparent !important;
+  background-color: transparent !important;
 }
 
 .image-box {
@@ -355,7 +367,7 @@ body > main > .home-section-one, body > main > .home-section-two, body > main > 
 
 .audio-section {
   padding-top: 70px;
-  text-align: center; 
+  text-align: center;
 }
 
 .audio-heading > h1 {
@@ -374,7 +386,7 @@ body > main > .home-section-one, body > main > .home-section-two, body > main > 
 }
 
 .bg-audio {
-    min-height: 100vh;
+  min-height: 100vh;
 }
 
 
@@ -400,6 +412,7 @@ video {
   width: 100%;
   height: auto;
 }
+
 
 /*-------------------------------------------------------------------Band Page*/
 
@@ -428,6 +441,7 @@ video {
   margin-top: 10px;
 }
 
+
 /*----------------------------------------------------------------Contact Page*/
 
 .contact-section {
@@ -436,15 +450,16 @@ video {
 }
 
 .contact-section > h1 {
-    font-family: "Ultra", sans-serif;
-    font-size: 4em;
-    padding-bottom: 12px;
-  }
-  
+  font-family: "Ultra", sans-serif;
+  font-size: 4em;
+  padding-bottom: 12px;
+}
+
 .red-star {
   font-weight: 900;
   color: red;
 }
+
 
 /*============================================================================*/
 
@@ -505,20 +520,20 @@ video {
     width: 78%;
   }
   .cd-cover {
-  padding-left: 0px;
-  padding-right: 0px;
-  width: 340px;
-  height: 340px;
-}
-.main-section.events-section {
+    padding-left: 0px;
+    padding-right: 0px;
+    width: 340px;
+    height: 340px;
+  }
+  .main-section.events-section {
     height: 100vh;
   }
   .current-events {
     height: 100vh;
   }
   .img-thumbnail {
-  min-height: 350px;
-}
+    min-height: 350px;
+  }
 
 }
 
@@ -528,7 +543,7 @@ video {
     padding-left: 0px;
     margin-right: 60px;
   }
-  
+
   body > main > .home-splash1 {
     background: url("../images/home-splash1-wide.jpg");
     background-size: contain;
@@ -553,7 +568,9 @@ video {
   .band-no-show2 {
     display: block;
   }
-  .main-section.news-section, .main-section.events-section, .main-section.audio-section {
+  .main-section.news-section,
+  .main-section.events-section,
+  .main-section.audio-section {
     margin-top: 0px;
     padding-top: 50px;
     background-image: url("../images/news-background.png");
@@ -562,26 +579,27 @@ video {
     background-position: center;
     background-attachment: fixed;
   }
-  
-.image-section > div {
+
+  .image-section > div {
     padding-left: 0px;
     padding-right: 0px;
-}
+  }
 
-.image-box {
-  width: 33%;
-    height: 300px; /* or whatever... */
+  .image-box {
+    width: 33%;
+    height: 300px;
+    /* or whatever... */
     overflow: hidden;
     display: inline-block;
-}
+  }
 
-.image {
-  max-width:100%;
-  max-height:100%;
-  margin-top: 50px;
-  margin-left: 25px;
-  margin-right: 25px;
-}
+  .image {
+    max-width: 100%;
+    max-height: 100%;
+    margin-top: 50px;
+    margin-left: 25px;
+    margin-right: 25px;
+  }
 
 }
 
