@@ -32,7 +32,7 @@ body {
   background-color: #E1F5FE;
 }
 
-.bg-news, .bg-images {
+.bg-news, .bg-images, .bg-audio {
   background-color: #E1F5FE;
 }
 
@@ -276,7 +276,7 @@ body > main > .home-section-one, body > main > .home-section-two, body > main > 
   padding-right: 0px;
   width: 100%;
   height: auto;
-  margin-bottom: 20px;
+  margin-bottom: 40px;
 }
 
 .modal-body > img {
@@ -372,6 +372,11 @@ body > main > .home-section-one, body > main > .home-section-two, body > main > 
 .audio-item {
   padding-bottom: 50px;
 }
+
+.bg-audio {
+    min-height: 100vh;
+}
+
 
 /*------------------------------------------------------------------Video Page*/
 
