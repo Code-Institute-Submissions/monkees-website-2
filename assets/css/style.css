@@ -300,6 +300,13 @@ body > main > .home-section-three {
   margin: 0 auto;
 }
 
+.buy-cd-btn {
+  color: black;
+  background-color: white;
+  border-color: black;
+  border-radius: 0;
+}
+
 
 /*----------------------------------------------------------------------Events*/
 
