@@ -603,6 +603,10 @@ video {
 
 }
 
+@media screen  and (min-width : 1824px) {
+body > main > .home-splash1 { height: 650px;}
+}
+
 /**/
 
 /**/
