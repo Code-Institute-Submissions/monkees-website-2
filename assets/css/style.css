@@ -539,7 +539,7 @@ video {
 
 @media screen and (min-width: 992px) {
   .navbar-brand > img {
-    height: 300%;
+    height: 250%;
     padding-left: 0px;
     margin-right: 60px;
   }
@@ -604,7 +604,9 @@ video {
 }
 
 @media screen  and (min-width : 1824px) {
-body > main > .home-splash1 { height: 650px;}
+  body > main > .home-splash1 { 
+    height: 650px;
+    }
 }
 
 /**/
