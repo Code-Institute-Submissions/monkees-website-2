@@ -29,5 +29,4 @@ There are links to their entire discography for purchase and a page to contact t
 * [FontAwesome Icons](https://fontawesome.com/)
 * [Google Fonts Library](https://fonts.google.com/)
 * [Hover.CSS](http://ianlunn.github.io/Hover/)
-* [Animate.CSS](https://daneden.github.io/animate.css/)
 * [BagetteBox](https://feimosi.github.io/baguetteBox.js/)
