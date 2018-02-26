@@ -478,6 +478,17 @@ video {
 }
 
 
+/*---------------------------------------------------------------Terms/Privacy*/
+
+.priv-section h1, .terms-section h1 {
+  text-align: center;
+  font-family: "Ultra", sans-serif;
+  font-size: 3em;
+  padding-bottom: 30px;
+  padding-top: 40px;
+}
+
+
 /*============================================================================*/
 
 /*---------------------------------------------------------------Media Queries*/

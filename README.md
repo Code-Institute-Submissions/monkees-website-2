@@ -1,6 +1,6 @@
-# Milestone Project 1
+# The Monkees Website
 
-### The Monkees Website
+### Description
 
 In this project I wanted to create a site that was *simplistic* and *minimalist* yet had some nice smooth animations here and there to slightly improve on the user experience.
 The website is for the band "The Monkees", and it was made for new and old listeners of their music.
