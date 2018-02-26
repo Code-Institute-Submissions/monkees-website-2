@@ -4,10 +4,13 @@
 
 In this project I created a site that was *simplistic* and *minimalist* yet had some nice smooth animations here and there to slightly improve on the user experience.
 The website is for the band "The Monkees", and it was made for new and old listeners of their music.
+
 For new listeners there are sections where they can learn about the members and listen to their new and old music produced through out the years.
 For old timers there are News and Events sections so they can keep up to date with the band and what they will be doing in the future.
 There are links to their entire discography for purchase and a page to contact them for further info on their availability to perform at functions.
+
 The site was made using the c9 IDE and tested using several Android devices as well as an iPhone 6s. Google Chrome inspector was also used to test several devices I could not personally get my hands on.
+
 I deployed the site to [Github Pages](https://pages.github.com/) after all testing was concluded on the following link [here](https://shaunza.github.io/monkees-website/index.html).
 
 
