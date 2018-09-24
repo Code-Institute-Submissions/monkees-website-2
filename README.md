@@ -13,6 +13,7 @@ The site was made using the c9 IDE and tested using Google Chrome, Mozilla Firef
 
 I deployed the site to [Github Pages](https://pages.github.com/) after all testing was concluded on the following link [here](https://shaunza.github.io/monkees-website/index.html).
 
+Mockups can be found in the /mockup/ folder in this Git repo.
 
 ### The following is a table on the pages and their respective funcionality within the site.
 
